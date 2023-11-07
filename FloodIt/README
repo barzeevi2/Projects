@@ -1,0 +1,15 @@
+Goal: To implement the Flood-it game using spanning trees, mutable world state, 2d ArrayLists, and mutable linked data structures in Java.
+
+
+Flood-It is a puzzle game where the player's objective is to fill the entire game board with a single color within a limited number of moves (guesses).
+The game board consists of a grid of colored cells. Players start at the top-left corner of the grid and select a color. 
+All cells of the same color that are adjacent to the starting cell (vertically or horizontally) become part of the player's territory.
+The game continues until the player either conquers the entire board or runs out of allowed guesses.
+The player is able to click on each square to change the color.
+Player can restart and re-generate a new random board at any time.
+
+It encompasses several main ideas, including the representation of the game board as a 2D array of cells 
+(which is the other class and defines each cell), the tracking of game parameters like board dimensions, available colors, 
+and guesses, and the management of the game state through methods for handling user interactions, game ticks, and end conditions. 
+
+The FloodItWorld class also handles graphical elements, such as rendering the game board and displaying the score and timer. 
