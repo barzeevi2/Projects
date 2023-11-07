@@ -1,0 +1,7 @@
+Goal: Create a maze generator game that can be solved using breath or depth-first search.
+
+I used Java to create and visualize randomly generated mazes. I used the Java library javalib.impworld for creating graphical worlds and scenes.
+The user can perform various actions based on different inputs while playing the game. The game can be played on boards of all sizes.
+
+The main feature of this algorithm is kruskals algorithm. I used the algorithm in order to find the minimum spanning tree. This minimum spanning tree will be 
+the path from start to finish of the maze. The idea is to use randomized weights every time I generate a maze, so that the min spanning tree is different.
