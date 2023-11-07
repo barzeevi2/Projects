@@ -1,8 +1,0 @@
-Goal: Create a maze generator game that can be solved using breath or depth-first search.
-
-Using Java, I created a maze generator game that the user can restart and solve using BFS or DFS. 
-The game uses utilizes the Java library javalib.impworld for creating graphical worlds and scenes. The GUI allows the user to restart the game and move freely within the maze.
-
-I utilized kruskal's algorithm to identify the minimum spanning tree - which will be the path of the maze. 
-The idea is to use the algorithm with random weights so that the maze is randomly generated and has one path from start to end - the minimum spanning tree.
-
