@@ -1,0 +1,3 @@
+The GUI version of the English Marble Solitaire game.
+Extends on the main project and adds a more advanced graphical view interface for the game. 
+Player runs the GUIDriver and then presses on the marbles to move them into an available open spot.
