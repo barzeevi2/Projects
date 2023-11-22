@@ -1,0 +1,7 @@
+Created a marble solitaire game using a builder pattern and MVC design pattern to implement a working interactable marble solitaire 
+game. Supports three different versions of the game, the (English) regular version, a European version (a circular board), and a triangular 
+board. 
+
+The main method takes command-line arguments to make moves in this text version of the game.
+
+Also created a GUI version of the game in a different project folder.
